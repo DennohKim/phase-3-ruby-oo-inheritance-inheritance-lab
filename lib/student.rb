@@ -1,16 +1,4 @@
-class User 
-    attr_accessor :first_name, :last_name
-
-    KNOWLEDGE = []
-
-    def initialize
-        @knowledge = []
-
-    end
-
-    
-
-end
+require_relative "./user.rb"
 class Student < User
     def learn(knowledge)
         @knowledge << "Ruby framework Rails gem bundle update"
